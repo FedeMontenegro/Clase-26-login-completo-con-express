@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Juana la Loca",
+        "email": "juana-la-loca@gmail.com",
+        "password": "$2a$10$NUcQiwYLWi7uG9QjvipV4umv7L8Bskx0IIWIM/SBQ2q9U9ItzA/Bu",
+        "rol": "ROL_USER"
+    },
+    {
+        "id": 2,
+        "name": "Jacinto del Valle",
+        "email": "jacinto@jacinto.com",
+        "password": "$2a$10$yEfzjeUc95H6FeX9pN97AedNI3zTF4GtNqywHU8OXz3qPgkESXfiu",
+        "rol": "ROL_USER"
+    },
+    {
+        "id": 3,
+        "name": "Pepita la pistolera",
+        "email": "pepita-pium-pium@gmail.com",
+        "password": "$2a$10$fyXikb9AqriKRCQP/kCgF.fkiUzhmc8MioyMXdsI.ERGXpF15eQgi",
+        "rol": "ROL_USER"
+    },
+    {
+        "id": 4,
+        "name": "Sansón el melenudo",
+        "email": "el-crinas@gmail.com",
+        "password": "$2a$10$OKNCo.8VF2Y8XcMLNDxO4OsR/MMXbOK1w9D/V4.oC24hQwbfQ53TK",
+        "rol": "ROL_USER"
+    },
+    {
+        "id": 5,
+        "name": "Alejandro Magno",
+        "email": "alejandro@gmail.com",
+        "password": "$2a$10$NoDXdb03Xkv8Tw3VSf9Hleew26e3BYA6kfQtLd3qBIDFPC0U2VHGi",
+        "rol": "ROL_USER"
+    },
+    {
+        "id": 6,
+        "name": "Lionel Messi",
+        "email": "messias@gmail.com",
+        "password": "$2a$10$oNJ3P1cpQfawP2b7NPNs1.XjjcsPaYB3ttVvaBg35KkuJH8d/7Gpa",
+        "rol": "ROL_ADMIN"
+    }
+]

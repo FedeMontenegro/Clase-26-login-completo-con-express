@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+   <%- include("partials/head") %> 
+<body>
+    <h1>Bienvenido/a, <%= user?user.name:"" %> </h1>
+    <ul>
+        <li>Name: <%= user?user.name:"" %></li>
+        <li>Email: <%= user?user.email:"" %></li>
+        <li>Rol: <%= user?user.rol:"" %></li>
+    </ul>
+    <form action="/users/logout" method="POST">
+        <button class="btn-close-session-home" type="submit">Cerrar Sesión</button>
+    </form>
+</body>
+</html>

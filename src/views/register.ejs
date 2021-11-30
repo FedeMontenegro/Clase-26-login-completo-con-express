@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include("partials/head") %> 
+<header>
+    <ul><li><a href="/users/login">Ir a login</a></li></ul>
+</header>
+<body>
+    <main class="main-register">
+        <h1 class="h1-register">Registro</h1>
+        <form class="form-register" action="/users/register" method="POST">
+            <label class="lbl-register" for="name">Nombre:</label>
+            <input class="input-register" type="text" name="name" id="name">
+            <label class="lbl-register" for="email">Email:</label>
+            <input class="input-register" type="email" name="email" id="email">
+            <label class="lbl-register" for="pass">Contraseña:</label>
+            <input class="input-register" type="password" name="pass" id="pass">
+            <label class="lbl-register" for="rePass">Repetir contraseña:</label>
+            <input class="input-register" type="password" name="rePass" id="rePass">
+            <button type="submit" class="accept">Aceptar</button>
+        </form>
+    </main>
+</body>
+</html>
